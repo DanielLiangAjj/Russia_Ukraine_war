@@ -19,7 +19,7 @@ def fetch_articles(page_number):
     url = "https://api.nytimes.com/svc/search/v2/articlesearch.json"
     parameters = {
         'fq': 'headline:("Russia" "Ukraine") OR body:("Ukraine" AND "Russian" AND "War")',
-        "api-key": "kiKKTKAOIaHxQdKfY8rtgrxTx0BRdXcO",
+        "api-key": "",
         "begin_date": "20230518",
         "end_date": "20230704",
         "page": page_number
